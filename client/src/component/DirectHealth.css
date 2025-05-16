@@ -1,0 +1,40 @@
+/* DirectHealth.css */
+.container {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+h3 {
+  font-size: 1.8rem;
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+strong {
+  color: #2980b9;
+}
+
+.contact-info ul {
+  list-style-type: none;
+}
+
+.contact-info ul li {
+  font-size: 1.1rem;
+  margin: 5px 0;
+}
+
+.contact-info ul li strong {
+  color: #e74c3c;
+}

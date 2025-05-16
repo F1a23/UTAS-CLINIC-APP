@@ -1,0 +1,135 @@
+/* MentalHealthServices.css */
+
+.container {
+  padding: 30px 15px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #4a90e2;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #4a90e2;
+}
+
+h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.service-card {
+  border-radius: 10px;
+  border: none;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.service-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4a90e2;
+  color: white;
+  padding: 20px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3578e5;
+}
+
+.text-muted {
+  color: #888;
+}
+
+.request-assistance {
+  background-color: #ffeb3b;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.request-assistance h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.request-assistance p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.request-assistance button {
+  background-color: #d32f2f;
+}
+
+.request-assistance button:hover {
+  background-color: #c62828;
+}
+
+.images-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+.images-container img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.images-container img:hover {
+  transform: scale(1.1);
+}
+
+.service-card,
+button,
+.request-assistance {
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .service-card {
+    margin-bottom: 20px;
+  }
+
+  .images-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}

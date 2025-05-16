@@ -1,0 +1,28 @@
+/* AppointmentScheduling.css */
+.container {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+form {
+  margin-top: 30px;
+}
+
+form .form-group {
+  margin-bottom: 20px;
+}
+
+button {
+  width: 100%;
+}
+
+.alert {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 30px;
+}
